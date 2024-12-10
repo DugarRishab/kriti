@@ -1,0 +1,10 @@
+/* src/screens/Home.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FAECB6; /* Background color for the entire page */
+}
+
+h1, h2 {
+  margin: 0;
+}
