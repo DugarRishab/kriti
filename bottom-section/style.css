@@ -131,6 +131,19 @@ body {
     z-index: -1;
 }
 
+.team-section .team-scage {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-wrap: nowrap;
+    opacity: 70%;
+    font-size: 5rem;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
 @media screen and (max-width: 900px) {
     .subscribe-section {
         width: 90%;
@@ -163,6 +176,10 @@ body {
     .team-section p {
         font-size: 1.5rem;
         padding: 0 1rem;
+    }
+
+    .team-section .team-scage {
+        font-size: 3.5rem;
     }
 }
 
@@ -200,5 +217,9 @@ body {
 
     .team-section p {
         font-size: 1.2rem;
+    }
+
+    .team-section .team-scage {
+        font-size: 2rem;
     }
 }
