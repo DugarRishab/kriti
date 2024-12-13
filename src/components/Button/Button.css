@@ -1,5 +1,5 @@
 button {
-    background-color: #FAECB6;
+    background-color: #faecb6;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -10,10 +10,10 @@ button {
     max-width: fit-content;
     height: 48px;
     z-index: 3;
-	position: relative;
+    position: relative;
 }
 
-button span{
+button span {
     max-width: fit-content;
     height: 48px;
     gap: 0px;
@@ -32,4 +32,19 @@ button svg {
     padding: 0.5rem;
     gap: 0px;
     opacity: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    button {
+        padding: 2px 5px;
+        height: 30px;
+    }
+    button span {
+        font-size: 1rem;
+    }
+
+    button svg {
+        width: 28px;
+        height: 28px;
+    }
 }

@@ -1,6 +1,5 @@
-
-.section2{
-	margin-top: 10rem;
+.section2 {
+    margin-top: 10rem;
     /* border: 1px solid red; */
 }
 .section2 .heading {
@@ -27,7 +26,7 @@
     justify-content: center;
     width: 100%;
     /* height: 100vh; */
-	/* border: 1px solid red; */
+    /* border: 1px solid red; */
 
     & .main__leftchild {
         width: 100%;
@@ -35,7 +34,7 @@
         display: grid;
         place-items: center;
         padding-left: 40px;
-		margin-top: 12rem;
+        margin-top: 12rem;
 
         & .leftchild__heading {
             width: 100%;
@@ -80,14 +79,14 @@
     width: auto;
     transform-origin: center;
 
-    .banner-inside-wrapper {
+    & .banner-inside-wrapper {
         display: flex;
         flex-wrap: nowrap;
         white-space: nowrap;
         width: auto;
     }
 
-    .banner-text {
+    & .banner-text {
         font-family: "Bricolage Grotesque";
         font-size: 2rem;
         font-style: normal;
@@ -98,10 +97,10 @@
         place-items: center;
     }
 
-    .banner__text1 {
+    & .banner__text1 {
         background: #f96635;
     }
-    .banner__text2 {
+    & .banner__text2 {
         background: #faecb6;
         & span {
             font-size: small;
@@ -110,10 +109,10 @@
             transform: rotate(-90deg);
         }
     }
-    .banner__text3 {
+    & .banner__text3 {
         background: #2bbaa5;
     }
-    .banner__text4 {
+    & .banner__text4 {
         background: #f9a822;
     }
 }
