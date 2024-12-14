@@ -43,7 +43,7 @@ const SponsorSection = () => {
                 </div>
             </div>
             <div className="cover__image">
-                <img src="/imgs/s4-bg.jpeg" alt="" />
+                <img src="/imgs/s4-bg.png" alt="" />
             </div>
         </section>
     );
