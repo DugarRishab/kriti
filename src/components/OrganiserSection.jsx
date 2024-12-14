@@ -1,7 +1,29 @@
-// src/components/OrganiserSection.jsx
 import React from "react";
 import Button from "./Button/Button";
-import "./OrganiserAndSponsorSection.css";
+import "./OrganiserSection.css";
+
+const organisersData = [
+    {
+        name: "Akash Das",
+        shortIntro: "lorem ipsum",
+        profileImg: "profile.png",
+    },
+    {
+        name: "Akash Das",
+        shortIntro: "lorem ipsum",
+        profileImg: "profile.png",
+    },
+    {
+        name: "Akash Das",
+        shortIntro: "lorem ipsum",
+        profileImg: "profile.png",
+    },
+    {
+        name: "Akash Das",
+        shortIntro: "lorem ipsum",
+        profileImg: "profile.png",
+    },
+];
 
 const OrganiserSection = () => {
     return (
@@ -9,56 +31,28 @@ const OrganiserSection = () => {
             <div className="section3__main">
                 <div className="heading centered">MEET THE ORGANISERS</div>
                 <div className="organisers__container">
-                    <div className="organisers">
-                        <div className="organisers__img">
-                            <img src="/imgs/profile.png" alt="" />
+                    {organisersData.map((organiser, index) => (
+                        <div className="organisers" key={index}>
+                            <div className="organisers__img">
+                                <img
+                                    src={`/imgs/organisers/${organiser.profileImg}`}
+                                    alt={`${organiser.name}'s profile`}
+                                />
+                            </div>
+                            <div className="organisers__name description">
+                                {organiser.name}
+                            </div>
+                            <div className="organisers__description description">
+                                {organiser.shortIntro}
+                            </div>
                         </div>
-                        <div className="organisers__name description">
-                            AKASH DAS
-                        </div>
-                        <div className="organisers__description description">
-                            LOREM IPSUM
-                        </div>
-                    </div>
-                    <div className="organisers">
-                        <div className="organisers__img">
-                            <img src="/imgs/profile.png" alt="" />
-                        </div>
-                        <div className="organisers__name description">
-                            AKASH DAS
-                        </div>
-                        <div className="organisers__description description">
-                            LOREM IPSUM
-                        </div>
-                    </div>
-                    <div className="organisers">
-                        <div className="organisers__img">
-                            <img src="/imgs/profile.png" alt="" />
-                        </div>
-                        <div className="organisers__name description">
-                            AKASH DAS
-                        </div>
-                        <div className="organisers__description description">
-                            LOREM IPSUM
-                        </div>
-                    </div>
-                    <div className="organisers">
-                        <div className="organisers__img">
-                            <img src="/imgs/profile.png" alt="" />
-                        </div>
-                        <div className="organisers__name description">
-                            AKASH DAS
-                        </div>
-                        <div className="organisers__description description">
-                            LOREM IPSUM
-                        </div>
-                    </div>
+                    ))}
                 </div>
                 <div className="btn__container">
                     <Button
                         text={"VIEW THE ENTIRE TEAM"}
                         endIcon={String.fromCharCode(8594)}
-                    ></Button>
+                    />
                 </div>
             </div>
             <div className="side__image">
