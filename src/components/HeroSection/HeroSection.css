@@ -1,0 +1,141 @@
+.hero{
+	opacity: 80%;
+	z-index: 1;
+	position: relative;
+}
+.hero .details{
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.hero .content{
+	padding: 10rem 5rem 2.5rem 5rem;
+}
+.hero .content .title{
+	font-size: 8rem;
+	line-height: 6rem;
+}
+.hero .content .tagline{
+	display: flex;
+	flex-direction: row;
+	font-size: 3rem;
+	line-height: 3rem;
+}
+.hero .content button{
+	margin-top: 2rem;
+}
+.hero .rainbow{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	border: 0px solid red;
+	height: 15rem;
+	margin-top: 2rem;
+	z-index: -1;
+}
+.hero .rainbow img{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hero .rainbow .days{
+	font-size: 10rem;
+	line-height: 10rem;
+	position: absolute;
+	top: 0;
+	right: 20%;
+	color: var(--color3);
+}
+.hero .rainbow .text{
+	font-size: 4rem;
+	position: absolute;
+	top: 40%;
+	right: 10%;
+	text-transform: uppercase;
+	color: var(--color3);
+}
+
+.highlight{
+	color: var(--color1);
+}
+
+@media screen and (max-width: 900px) {
+    .hero .content {
+        padding: 5rem 2rem 1.5rem 2rem;
+    }
+    
+    .hero .content .title {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+    
+    .hero .content .tagline {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    .hero .details {
+        font-size: 1.2rem;
+        top: 1rem;
+        right: 1rem;
+    }
+    
+    .hero .rainbow {
+        height: 10rem;
+        margin-top: 1rem;
+    }
+    
+    .hero .rainbow .days {
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    
+    .hero .rainbow .text {
+        font-size: 2.5rem;
+        top: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero .content {
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    
+    .hero .content .title {
+        font-size: 3.5rem;
+        line-height: 3rem;
+    }
+    
+    .hero .content .tagline {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    
+    .hero .details {
+        font-size: 0.9rem;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+    
+    .hero .rainbow {
+        height: 8rem;
+        margin-top: 0.5rem;
+    }
+    
+    .hero .rainbow .days {
+        font-size: 4rem;
+        line-height: 4rem;
+        right: 15%;
+    }
+    
+    .hero .rainbow .text {
+        font-size: 1.8rem;
+        top: 45%;
+        right: 5%;
+    }
+}
