@@ -43,21 +43,33 @@
 	top: 0;
 	left: 0;
 }
-.hero .rainbow .days{
-	font-size: 10rem;
-	line-height: 10rem;
-	position: absolute;
-	top: 0;
-	right: 20%;
-	color: var(--color3);
+.hero .rainbow .days {
+    font-size: 9rem;
+    line-height: 6rem;
+    color: var(--color3);
+    text-shadow: 1px 1px 4px black;
+    margin: 0;
+    padding: 0;
 }
-.hero .rainbow .text{
-	font-size: 4rem;
-	position: absolute;
-	top: 40%;
-	right: 10%;
-	text-transform: uppercase;
-	color: var(--color3);
+
+.hero .rainbow .text {
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    color: var(--color2);
+    text-shadow: 1px 1px 4px black;
+    white-space: nowrap;    /* Prevent text wrapping */
+}
+
+.hero .rainbow .text-container {
+    position: absolute;
+    right: 10%;  /* Position 10% from right */
+    top: 50%;    /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* Align items to left */
+    justify-content: center;
+    min-width: 200px;         /* Minimum width to prevent text wrapping */
 }
 
 .highlight{
@@ -89,15 +101,21 @@
         height: 10rem;
         margin-top: 1rem;
     }
+
+    .hero .rainbow .text-container {
+        right: 10%;
+        top: 38%;
+        min-width: 150px;
+    }
     
     .hero .rainbow .days {
         font-size: 6rem;
-        line-height: 6rem;
+        line-height: 5rem;
     }
     
     .hero .rainbow .text {
         font-size: 2.5rem;
-        top: 45%;
+        /* top: 45%; */
     }
 }
 
@@ -127,15 +145,21 @@
         margin-top: 0.5rem;
     }
     
+    .hero .rainbow .text-container {
+        right: 5%;
+        min-width: 100px;
+        top: 35%;
+    }
+
     .hero .rainbow .days {
         font-size: 4rem;
-        line-height: 4rem;
-        right: 15%;
+        line-height: 3rem;
+        /* right: 15%; */
     }
     
     .hero .rainbow .text {
         font-size: 1.8rem;
-        top: 45%;
-        right: 5%;
+        /* top: 45%; */
+        /* right: 5%; */
     }
 }

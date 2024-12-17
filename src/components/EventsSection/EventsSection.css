@@ -7,7 +7,7 @@
     padding: 15rem 5rem 10rem 5rem;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     position: relative;
 	margin-top: 2rem;
 }
@@ -52,7 +52,7 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .event-section {
-        padding: 30px;
+        padding: 1.875rem;
     }
 
     .event-section h1 {
