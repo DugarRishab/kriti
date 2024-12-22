@@ -4,9 +4,6 @@ import Home from "./screens/Home";
 import Events from "./screens/Events";
 import "./App.css";
 
-// For now I dont't know how to switch between the Home and Events components
-// But you can see the Home on "\" endpoint and Events on "\events" endpoint
-
 const App = () => {
     return (
         <Router>
