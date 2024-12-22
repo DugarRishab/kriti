@@ -49,7 +49,7 @@ const OrganiserSection = () => {
                     ))}
                 </div>
                 <div className="btn__container">
-                    <Button
+                    {/* <Button
                         text={"VIEW THE ENTIRE TEAM"}
                         endIcon={
                             <svg
@@ -65,7 +65,7 @@ const OrganiserSection = () => {
 						/>
 					</svg>
                         }
-                    />
+                    /> */}
                 </div>
             </div>
             <div className="side__image">
