@@ -1,6 +1,6 @@
 // src/components/HeroSection.js
 import React from "react";
-import Button from "./Button/Button";
+import Button from "../Button/Button";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -37,8 +37,10 @@ const HeroSection = () => {
 			</div>
 			<div className="rainbow">
 				<img src="./imgs/home/rainbow.png" alt="" />
-				<div className="days">38</div>
-				<div className="text">Days to go</div>
+				<div className="text-container">
+					<div className="days">38</div>
+					<div className="text">Days to go</div>
+				</div>
 			</div>
 		</section>
 	);
