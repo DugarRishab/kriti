@@ -1,7 +1,8 @@
 .hero{
-	opacity: 80%;
-	z-index: 1;
+	opacity: 100%;
+	/* z-index: 0; */
 	position: relative;
+	width: 100%;
 }
 .hero .details{
 	position: absolute;
@@ -10,9 +11,12 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	z-index: 2;
 }
 .hero .content{
 	padding: 10rem 5rem 2.5rem 5rem;
+	/* position: relative; */
+	z-index: 2;
 }
 .hero .content .title{
 	font-size: 8rem;
@@ -34,7 +38,8 @@
 	border: 0px solid red;
 	height: 15rem;
 	margin-top: 2rem;
-	z-index: -1;
+	z-index: 0;
+	opacity: 100%;
 }
 .hero .rainbow img{
 	width: 100%;
