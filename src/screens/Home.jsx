@@ -15,16 +15,16 @@ import "./Home.css";
 const Home = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <HeroSection />
             <BannerSection />
             <EventsSection />
             <OrganiserSection />
             <SponsorSection />
             <ComingSoonSection />
-            <TeamSection />
+            {/* <TeamSection /> */}
             <BottomSection />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };

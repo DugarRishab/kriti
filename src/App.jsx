@@ -19,8 +19,7 @@ const App = () => {
                 <div className="bg-img2"></div>
                 <div className="bg-img3"></div>
                 <div className="bg-img4"></div>
-                <div className="bg-img5"></div>
-                <div className="bg-img6"></div>
+                
             </div>
         </Router>
     );

@@ -24,7 +24,7 @@ const eventsData = [
 const Events = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <EventsHeroSection />
             
             {eventsData.map((event,index) => (
@@ -37,7 +37,7 @@ const Events = () => {
                 />
             ))}
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
