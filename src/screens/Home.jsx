@@ -19,8 +19,8 @@ const Home = () => {
             <EventsSection></EventsSection>
             <OrganiserSection />
             <SponsorSection />
-            <TeamSection />
-            <Footer />
+            {/* <TeamSection /> */}
+            {/* <Footer /> */}
         </div>
     );
 };
