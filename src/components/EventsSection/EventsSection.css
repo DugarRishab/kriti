@@ -1,13 +1,15 @@
 .event-section {
     width: 100%;
     max-height: fit-content;
+    /* height: 10rem; */
+    /* min-height: fit-content; */
     /* border: 2px solid black; */
-    padding: 15rem 5rem 10rem 5rem;
+    padding: 0rem 5rem 10rem 5rem;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     position: relative;
-	margin-top: -10rem;
+	margin-top: 2rem;
 }
 
 .event-section h1 {
@@ -50,7 +52,7 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .event-section {
-        padding: 30px;
+        padding: 1.875rem;
     }
 
     .event-section h1 {
