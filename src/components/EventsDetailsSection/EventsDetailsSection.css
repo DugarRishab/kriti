@@ -192,7 +192,15 @@
     flex-direction: row-reverse;
 }
 
+.EventsDetails-section .eventDetails.reverse .details {
+    align-items: end;
+}
+
 .EventsDetails-section .eventDetails.reverse .details h1 {
     /* margin-left: 0; */
     margin-right: -0.2rem;
+}
+
+.EventsDetails-section .eventDetails.reverse .details p {
+    text-align: end;
 }

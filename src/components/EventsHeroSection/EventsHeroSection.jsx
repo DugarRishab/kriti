@@ -4,7 +4,6 @@ import "./EventsHeroSection.css";
 const EventsHeroSection = () => {
     return (
         <section className="EventsHero-section">
-            {/* <div className="first-section"> */}
                 <div className="details">
     				<div className="item highlight">17th to 19th Jan, 2025</div>
     				<div className="item">Venue: IIEST Shibpur</div>
@@ -15,7 +14,6 @@ const EventsHeroSection = () => {
                     <p>EVENTS FOR EVERYONE</p>
                 </div>
                 <img src="./imgs/home/sunshine.png" alt="" />
-            {/* </div> */}
         </section>
     );
 };
