@@ -1,82 +1,82 @@
 .section4 {
     position: relative;
     width: 100vw;
-    min-height: 100vh;
+    /* height: 100vh; */
+    /* height: 34rem; */
+    min-height: fit-content;
+    /* margin-bottom: 3rem; */
+    padding: 7rem 0;
+}
 
-    & .section4__main {
-        padding: 60px;
-        grid-row-gap: 3rem;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: min-content 1fr min-content;
-
-        & .heading {
-            font-family: "Ruslan Display";
-            font-size: 6rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 100%;
-            text-transform: uppercase;
-            text-align: center;
-            z-index: 2;
-
-        }
-
-        & .sponsors__container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            & .top__sponsors,
-            & .other__sponsors {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                & .sponsors img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    /* mix-blend-mode: multiply; */
-                }
-            }
-
-            & .top__sponsors .sponsors {
-                width: 300px;
-                height: 200px;
-                z-index: 2;
-            }
-            & .other__sponsors .sponsors {
-                width: 240px;
-                height: 160px;
-                z-index: 2;
-            }
-        }
-
-        .btn__container {
-            padding-top: 6vh;
-            display: grid;
-            place-items: center;
-
-            & svg {
-                transform: rotate(90deg);
-            }
-        }
-    }
-
-    & .cover__image {
-        position: absolute;
-        top: 0;
-        left: 0;
+.section4 .section4__main {
+        /* padding: 3.75rem; */
         width: 100%;
         height: 100%;
-        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+}
 
-        & img {
+.section4 .section4__main .heading {
+    font-family: "Ruslan Display";
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.section4 .section4__main .sponsors__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+    column-gap: 1rem;
+}
+
+.section4 .section4__main .sponsors__container .sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    width: 18rem;
+    height: 10rem;
+}
+
+.section4 .section4__main .sponsors__container .sponsors img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section4 .section4__main .btn__container {
+    padding-top: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.section4 .section4__main .btn__container svg {
+    transform: rotate(90deg);
+}
+
+.section4 .cover__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section4 .cover__image img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: fill;
             z-index: 0;
             mask-image: radial-gradient(
                 circle at 50% 0%,
@@ -88,84 +88,49 @@
                 rgba(0, 0, 0, 1) 50%,
                 rgba(0, 0, 0, 0) 75%
             );
-            /* mix-blend-mode: multiply; */
-        }
-    }
-
-    /* utility */
-    & img {
-        display: block;
-    }
-
-    & .description {
-        font-family: "Bricolage Grotesque";
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-
-    & .centered {
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
-@media screen and (max-width: 1024px) {
+img {
+    display: block;
+}
+
+@media screen and (max-width: 900px) {
     .section4 {
-        min-height: 80vh;
+        padding: 5rem 0;
     }
 
-    .section4 .description {
-        font-size: 1.15rem;
-    }
-
-    .section4 .heading {
-        font-size: 3rem;
-    }
-
-    .section4 .section4__main {
-        padding: 60px;
-        grid-row-gap: 3rem;
-    }
-
-    .section4 .sponsors__container {
-        & .top__sponsors .sponsors {
-            width: 220px;
-            height: 100px;
-        }
-        & .other__sponsors .sponsors {
-            width: 160px;
-            height: 90px;
-        }
+    .section4 .section4__main .sponsors__container .sponsors {
+        width: 16rem;
+        height: 8rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .section4 .heading {
-        font-size: 2rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+    .section4 {
+        padding: 3rem 0;
     }
 
-    .section4 .description {
-        font-size: 1rem;
+   .section4 .section4__main .heading {
+        font-size: 3rem;
     }
 
-    .section4 .section4__main {
-        padding: 10px;
-        grid-row-gap: 1rem;
+    .section4 .section4__main .sponsors__container .sponsors {
+        width: 12rem;
+        height: 6rem;
+    }
+}
+            
+@media screen and (max-width: 480px) {
+    .section4 {
+        padding: 1rem 0;
     }
 
-    .section4 .sponsors__container {
-        & .top__sponsors .sponsors {
-            width: 95px;
-            height: 55px;
-        }
-        & .other__sponsors .sponsors {
-            width: 75px;
-            height: 40px;
-        }
+    .section4 .section4__main .heading {
+        font-size: 2.5rem;
+    }
+
+    .section4 .section4__main .sponsors__container .sponsors {
+        width: 8rem;
+        height: 3.8rem;
     }
 }
