@@ -80,7 +80,7 @@
 
 @media (max-width: 480px) {
     .event-section {
-        padding: 1.25rem;
+        padding: 5rem 1rem;
     }
 
     .event-section h1 {
