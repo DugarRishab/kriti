@@ -5,79 +5,7 @@ import EventsHeroSection from "../components/EventsHeroSection/EventsHeroSection
 import EventsDetailsSection from "../components/EventsDetailsSection/EventsDetailsSection";
 import Footer from "../components/Footer/Footer";
 import "./Events.css";
-
-const eventsData = [
-    {
-        eventName: "EVENT NAME 1",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName1.png",
-        isReversed: false,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 2",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName2.png",
-        isReversed: true,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 3",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName1.png",
-        isReversed: false,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 4",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName2.png",
-        isReversed: true,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 5",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName1.png",
-        isReversed: false,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 6",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName2.png",
-        isReversed: true,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 7",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName1.png",
-        isReversed: false,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 8",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName2.png",
-        isReversed: true,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 9",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName1.png",
-        isReversed: false,
-        eventLink: "#"
-    },
-    {
-        eventName: "EVENT NAME 10",
-        eventDescription: "INDULGE INTO THE EXPERIENCE OF BOUNDLESS CREATIVITY AND ARTISTIC EXPRESSION.",
-        eventImage: "./imgs/Events/EventName2.png",
-        isReversed: true,
-        eventLink: "#"
-    },
-];
+import eventsData from '../eventsData.json';
 
 const Events = () => {
     return (
@@ -85,7 +13,7 @@ const Events = () => {
             {/* <Header /> */}
             <EventsHeroSection />
             
-            {eventsData.map((event,index) => (
+            {eventsData.events.map((event,index) => (
                 <EventsDetailsSection
                     key={index}
                     isReversed={event.isReversed}
