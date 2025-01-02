@@ -6,19 +6,22 @@ import "./App.css";
 
 const App = () => {
     return (
-        <Router>
-            <div className="App">
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/events" element={<Events />} />
-                </Routes>
-                <div className="bg-img"></div>
-                <div className="bg-img2"></div>
-                <div className="bg-img3"></div>
-                <div className="bg-img4"></div>
-            </div>
-        </Router>
-    );
+		<Router>
+			<div className="App">
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/events" element={<Events />} />
+				</Routes>
+				<div className="bg-img">
+					<img src="./imgs/fold-texture-bg.png" alt="" />
+					<img src="./imgs/fold-texture-bg.png" alt="" />
+				</div>
+				<div className="bg-img2"></div>
+				{/* <div className="bg-img3"></div> */}
+				{/* <div className="bg-img4"></div> */}
+			</div>
+		</Router>
+	);
 };
 
 export default App;

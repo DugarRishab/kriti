@@ -4,7 +4,7 @@
     /* height: 10rem; */
     /* min-height: fit-content; */
     /* border: 2px solid black; */
-    padding: 0rem 5rem 10rem 5rem;
+    padding: 0rem 2.5rem 10rem;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -64,8 +64,8 @@
     }
 
     .event-section button {
-        padding: 8px 16px;
-        height: 40px;
+        padding: 0.5rem 1rem;
+        height: 2.5rem;
     }
 
     .event-section button span {
@@ -73,14 +73,14 @@
     }
 
     .event-section button svg {
-        width: 28px;
-        height: 28px;
+        width: 1.75rem;
+        height: 1.75rem;
     }
 }
 
 @media (max-width: 480px) {
     .event-section {
-        padding: 20px;
+        padding: 5rem 1rem;
     }
 
     .event-section h1 {
@@ -92,8 +92,8 @@
     }
 
     .event-section button {
-        padding: 6px 12px;
-        height: 36px;
+        padding: 0.375rem 0.75rem;
+        height: 2.25rem;
     }
 
     .event-section button span {
@@ -101,7 +101,7 @@
     }
 
     .event-section button svg {
-        width: 24px;
-        height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
