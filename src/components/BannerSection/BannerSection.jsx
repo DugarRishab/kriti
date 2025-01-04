@@ -33,7 +33,7 @@ const BannerSection = () => {
 						<span>Kriti</span>
 					</div>
 					<div className="banner-text banner__text4">
-						sponsored by lorem ipsum
+						Powered by SCAGE
 					</div>
 					<div className="banner-text banner__text2">
 						<span>Kriti</span>
@@ -46,7 +46,7 @@ const BannerSection = () => {
 					</div>
 					<div className="banner-text banner__text3">#kriti24</div>
 					<div className="banner-text banner__text4">
-						sponsored by lorem ipsum
+						Powered by SCAGE
 					</div>
 					<div className="banner-text banner__text1">
 						17th to 19th January
@@ -56,7 +56,7 @@ const BannerSection = () => {
 					</div>
 					<div className="banner-text banner__text3">#kriti24</div>
 					<div className="banner-text banner__text4">
-						sponsored by lorem ipsum
+						Powered by SCAGE
 					</div>
 					<div className="banner-text banner__text1">
 						17th to 19th January
@@ -66,7 +66,7 @@ const BannerSection = () => {
 					</div>
 					<div className="banner-text banner__text3">#kriti24</div>
 					<div className="banner-text banner__text4">
-						sponsored by lorem ipsum
+						Powered by SCAGE
 					</div>
 				</div>
 			</div>
