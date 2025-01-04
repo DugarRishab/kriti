@@ -47,7 +47,8 @@
 
 .EventsDetails-section .eventDetails .details h1 {
     /* font-size: 100px; */
-    font-size: 4.2rem;
+    /* font-size: 4.2rem; */
+    font-size: 3.8rem;
     /* font-family: "Ruslan Display", sans-serif; */
     font-weight: 400;
     z-index: 2;
@@ -56,9 +57,32 @@
 
 .EventsDetails-section .eventDetails .details p {
     min-width: 80%;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 1.5rem;
     font-weight: 600;
     z-index: 2;
+}
+
+.EventsDetails-section .eventDetails.reverse {
+    flex-direction: row-reverse;
+}
+
+.EventsDetails-section .eventDetails.reverse .details {
+    align-items: end;
+}
+
+.EventsDetails-section .eventDetails.reverse .details h1 {
+    /* margin-left: 0; */
+    margin-right: -0.2rem;
+    text-align: end;
+}
+
+.EventsDetails-section .eventDetails.reverse .details p {
+    text-align: end;
+}
+
+@media (max-width: 980px) {
+
 }
 
 @media (max-width: 768px) {
@@ -105,6 +129,7 @@
         height: 25rem;
         padding: 3rem 3rem 0rem 3rem;
         gap: 3rem;
+        flex-direction: column;
     }
     
     .EventsDetails-section .eventDetails .image {
@@ -141,6 +166,24 @@
 
     .EventsDetails-section .eventDetails .details p {
         font-size: 1.2rem;
+    }
+
+    .EventsDetails-section .eventDetails.reverse {
+        flex-direction: column;
+    }
+    
+    .EventsDetails-section .eventDetails.reverse .details {
+        align-items: start;
+    }
+    
+    .EventsDetails-section .eventDetails.reverse .details h1 {
+        /* margin-left: 0; */
+        /* margin-right: -0.2rem; */
+        text-align: start;
+    }
+    
+    .EventsDetails-section .eventDetails.reverse .details p {
+        text-align: start;
     }
 }
 
@@ -186,21 +229,4 @@
     .EventsDetails-section .eventDetails .details p {
         font-size: 1rem;
     }
-}
-
-.EventsDetails-section .eventDetails.reverse {
-    flex-direction: row-reverse;
-}
-
-.EventsDetails-section .eventDetails.reverse .details {
-    align-items: end;
-}
-
-.EventsDetails-section .eventDetails.reverse .details h1 {
-    /* margin-left: 0; */
-    margin-right: -0.2rem;
-}
-
-.EventsDetails-section .eventDetails.reverse .details p {
-    text-align: end;
 }
