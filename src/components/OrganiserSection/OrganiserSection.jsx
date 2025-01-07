@@ -6,37 +6,37 @@ const organisersData = [
     {
         name: "Mayukh Mondal",
         shortIntro: "Committee Secretary",
-        profileImg: "profile.webp",
+        profileImg: "MayukhMondal.webp",
     },
     {
         name: "Sangeet Dhabare",
         shortIntro: "Committee Treasurer",
-        profileImg: "profile.webp",
+        profileImg: "SangeetDhabare.webp",
     },
     {
         name: "Akash Das",
         shortIntro: "Main Coordinator",
-        profileImg: "profile.webp",
+        profileImg: "AkashDas.webp",
     },
     {
         name: "Twameka Sinha",
         shortIntro: "Main Coordinator",
-        profileImg: "profile.webp",
+        profileImg: "TwamekaSinha.webp",
     },
     {
         name: "Krishnendu Mondal",
         shortIntro: "Finance",
-        profileImg: "profile.webp",
+        profileImg: "KrishnenduMondal.webp",
     },
     {
         name: "Sourish Pal",
         shortIntro: "Joint Coordinator",
-        profileImg: "profile.webp",
+        profileImg: "SourishPal.webp",
     },
     {
         name: "Aditi Karmakar",
         shortIntro: "Joint Coordinator",
-        profileImg: "profile.webp",
+        profileImg: "AditiKarmakar.webp",
     },
 ];
 
