@@ -4,24 +4,39 @@ import "./OrganiserSection.css";
 
 const organisersData = [
     {
-        name: "Akash Das",
+        name: "Mayukh Mondal",
+        shortIntro: "Committee Secretary",
+        profileImg: "profile.webp",
+    },
+    {
+        name: "Sangeet Dhabare",
         shortIntro: "lorem ipsum",
-        profileImg: "profile.png",
+        profileImg: "profile.webp",
     },
     {
         name: "Akash Das",
-        shortIntro: "lorem ipsum",
-        profileImg: "profile.png",
+        shortIntro: "Main Coordinator",
+        profileImg: "profile.webp",
     },
     {
-        name: "Akash Das",
-        shortIntro: "lorem ipsum",
-        profileImg: "profile.png",
+        name: "Twameka Singh",
+        shortIntro: "Main Coordinator",
+        profileImg: "profile.webp",
     },
     {
-        name: "Akash Das",
-        shortIntro: "lorem ipsum",
-        profileImg: "profile.png",
+        name: "Krishnendu Mondal",
+        shortIntro: "Finance",
+        profileImg: "profile.webp",
+    },
+    {
+        name: "Sourish Pal",
+        shortIntro: "Joint Coordinator",
+        profileImg: "profile.webp",
+    },
+    {
+        name: "Aditi Karmakar",
+        shortIntro: "Joint Coordinator",
+        profileImg: "profile.webp",
     },
 ];
 
