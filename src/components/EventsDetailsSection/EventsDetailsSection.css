@@ -16,6 +16,7 @@
     /* height: 100%; */
     height: auto;
     position: relative;
+    /* border: 2px solid black; */
 }
 
 .EventsDetails-section .eventDetails .image .top-ribbon-image {
