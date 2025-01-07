@@ -10,7 +10,7 @@ const organisersData = [
     },
     {
         name: "Sangeet Dhabare",
-        shortIntro: "lorem ipsum",
+        shortIntro: "Committee Treasurer",
         profileImg: "profile.webp",
     },
     {
@@ -19,7 +19,7 @@ const organisersData = [
         profileImg: "profile.webp",
     },
     {
-        name: "Twameka Singh",
+        name: "Twameka Sinha",
         shortIntro: "Main Coordinator",
         profileImg: "profile.webp",
     },
