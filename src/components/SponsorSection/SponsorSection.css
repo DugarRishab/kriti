@@ -28,6 +28,7 @@
     text-align: center;
     z-index: 2;
     margin: 0 auto;
+    /* color: white; */
 }
 
 .section4 .section4__main .sponsors__container {
@@ -48,6 +49,10 @@
     height: 10rem;
     overflow: hidden;
     background: transparent;
+    background-color: white;
+    border-radius: 10px;
+    /* gap: 1rem; */
+    margin: 1rem;
 }
 
 .section4 .section4__main .sponsors__container .sponsors img {

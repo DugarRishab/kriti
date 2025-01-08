@@ -36,7 +36,8 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-
+                z-index: 1;
+                position: relative;
                 /* .organisers__img is the contianer of img
                 tag that contains the organiser image */
                 & .organisers__img {
@@ -44,6 +45,7 @@
                     height: 200px;
                     border-radius: 50%;
                     overflow: hidden;
+                    margin-bottom: 1rem;
 
                     & img {
                         width: 100%;

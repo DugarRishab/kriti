@@ -3,41 +3,42 @@ import Button from "../Button/Button";
 import "./OrganiserSection.css";
 
 const organisersData = [
-    {
-        name: "Mayukh Mondal",
-        shortIntro: "Committee Secretary",
-        profileImg: "MayukhMondal.webp",
-    },
-    {
-        name: "Sangeet Dhabare",
-        shortIntro: "Committee Treasurer",
-        profileImg: "SangeetDhabare.webp",
-    },
-    {
-        name: "Akash Das",
-        shortIntro: "Main Coordinator",
-        profileImg: "AkashDas.webp",
-    },
-    {
-        name: "Twameka Sinha",
-        shortIntro: "Main Coordinator",
-        profileImg: "TwamekaSinha.webp",
-    },
-    {
-        name: "Krishnendu Mondal",
-        shortIntro: "Finance",
-        profileImg: "KrishnenduMondal.webp",
-    },
-    {
-        name: "Sourish Pal",
-        shortIntro: "Joint Coordinator",
-        profileImg: "SourishPal.webp",
-    },
-    {
-        name: "Aditi Karmakar",
-        shortIntro: "Joint Coordinator",
-        profileImg: "AditiKarmakar.webp",
-    },
+	{
+		name: "Akash Das",
+		shortIntro: "Main Coordinator",
+		profileImg: "AkashDas.webp",
+	},
+	{
+		name: "Twameka Sinha",
+		shortIntro: "Main Coordinator",
+		profileImg: "TwamekaSinha.webp",
+	},
+	{
+		name: "Mayukh Mondal",
+		shortIntro: "Committee Secretary",
+		profileImg: "MayukhMondal.webp",
+	},
+	{
+		name: "Sangeet Dhabare",
+		shortIntro: "Committee Treasurer",
+		profileImg: "SangeetDhabare.webp",
+	},
+
+	{
+		name: "Krishnendu Mondal",
+		shortIntro: "Finance",
+		profileImg: "KrishnenduMondal.webp",
+	},
+	{
+		name: "Sourish Pal",
+		shortIntro: "Joint Coordinator",
+		profileImg: "SourishPal.webp",
+	},
+	{
+		name: "Aditi Karmakar",
+		shortIntro: "Joint Coordinator",
+		profileImg: "AditiKarmakar.webp",
+	},
 ];
 
 const OrganiserSection = () => {

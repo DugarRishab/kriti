@@ -15,6 +15,17 @@ const App = () => {
 				<div className="bg-img">
 					<img src="./imgs/fold-texture-bg.webp" alt="" />
 					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
+					<img src="./imgs/fold-texture-bg.webp" alt="" />
 				</div>
 				<div className="bg-img2"></div>
 				{/* <div className="bg-img3"></div> */}
