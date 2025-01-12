@@ -9,7 +9,7 @@
     flex-direction: column;
     gap: 1.25rem;
     position: relative;
-	margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .event-section h1 {
@@ -28,14 +28,12 @@
     display: flex;
     z-index: 2;
     flex-flow: row wrap;
-	gap: 0.5rem;
-	margin: 1rem 0;
+    /* gap: 0.5rem; */
+    margin: 1rem 0;
 }
-.event-section .events .item{
-	gap: 1rem;
+.event-section .events .item {
+    gap: 1rem;
 }
-
-
 
 .event-section img {
     position: absolute;
@@ -46,7 +44,7 @@
     bottom: 0px;
     left: 0;
     object-fit: cover;
-	object-position: top;
+    object-position: top;
 }
 
 /* Media Queries for Responsiveness */
@@ -60,7 +58,7 @@
     }
 
     .event-section .events {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .event-section button {
@@ -88,7 +86,7 @@
     }
 
     .event-section .events {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .event-section button {
