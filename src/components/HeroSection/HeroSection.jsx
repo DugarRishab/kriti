@@ -41,7 +41,7 @@ const HeroSection = () => {
       <div className="details">
         <div className="item highlight">17th to 19th Jan, 2025</div>
         <div className="item">Venue: IIEST Shibpur</div>
-        <div className="item">Organised By: Scage</div>
+        <div className="item">Organised By: SCAGE</div>
       </div>
       <div className="rainbow">
         <img src="./imgs/home/rainbow.png" alt="" />
