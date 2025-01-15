@@ -1,9 +1,18 @@
 // src/components/HeroSection.js
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Button from "../Button/Button";
 import "./HeroSection.css";
 
 const HeroSection = () => {
+  const [daysLeft, setDaysLeft] = useState(daysLeftBefore17Jan());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDaysLeft(daysLeftBefore17Jan());
+    }, 900000);
+    return () => clearInterval(interval);
+  }, []);
+
   function daysLeftBefore17Jan() {
     const now = new Date();
     const eventDate = new Date("2025-01-17");
@@ -46,8 +55,14 @@ const HeroSection = () => {
       <div className="rainbow">
         <img src="./imgs/home/rainbow.png" alt="" />
         <div className="text-container">
-          <div className="days">{daysLeftBefore17Jan()}</div>
-          <div className="text">Days to go</div>
+          {daysLeft <= 0 ? (
+            <div className="text">Live Now</div>
+          ) : (
+            <>
+              <div className="days">{daysLeftBefore17Jan()}</div>
+              <div className="text">Days to go</div>
+            </>
+          )}
         </div>
       </div>
     </section>
