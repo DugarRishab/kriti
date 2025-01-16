@@ -24,7 +24,7 @@
         {
             "eventName": "Fingers in Focus",
             "eventDescription": "Get ready to turn your face or hands into a living canvas! This activity invites participants to explore the art of body painting, where you can choose to have your face or hands painted with intricate designs, vibrant colors, or whimsical patterns. Whether you want to go for bold, artistic, or something playful, our talented artists will help bring your vision to life. It’s a unique way to express yourself and add a colorful touch to your day. Come join the fun and let your imagination shine!",
-            "eventImage": "./imgs/Events/EventName2.png",
+            "eventImage": "./imgs/Events/FingersInFocus.png",
             "isReversed": true,
             "eventLink": "https://forms.gle/TL3BPGjLLR4XbX2LA"
         },
