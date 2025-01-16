@@ -29,16 +29,17 @@ const organisersData = [
 		shortIntro: "Finance",
 		profileImg: "KrishnenduMondal.webp",
 	},
+{
+		name: "Aditi Karmakar",
+		shortIntro: "Joint Coordinator",
+		profileImg: "AditiKarmakar.webp",
+	},
 	{
 		name: "Sourish Pal",
 		shortIntro: "Joint Coordinator",
 		profileImg: "SourishPal.webp",
 	},
-	{
-		name: "Aditi Karmakar",
-		shortIntro: "Joint Coordinator",
-		profileImg: "AditiKarmakar.webp",
-	},
+	
 ];
 
 const OrganiserSection = () => {
